@@ -1,0 +1,11 @@
+{
+  "name": "com.hexagram.logger",
+  "displayName": "Hexagram Logger",
+  "version": "1.0.1",
+  "unity": "2020.3",
+  "unityRelease": "30f1",
+  "description": "Advanced logging for Unity.",
+  "author": {
+    "name": "Hexagram"
+  }
+}

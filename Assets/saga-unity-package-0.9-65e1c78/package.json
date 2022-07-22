@@ -1,0 +1,11 @@
+{
+  "name": "io.hexagram.saga",
+  "version": "0.9.0",
+  "displayName": "Saga",
+  "description": "A backend for games.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "author": {
+    "name": "Hexagram"
+  }
+}
