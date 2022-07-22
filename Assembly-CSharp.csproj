@@ -61,64 +61,74 @@
     <Compile Include="Assets\UnityLogger-main\Tests\Runtime\Logexttest.cs" />
     <Compile Include="Assets\UnityLogger-main\Runtime\HexLog.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Samples\SagaIntegration.cs" />
+    <Compile Include="Assets\HexSTTtoTTS\Runtime\AzureGetSTT.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Samples\StopRecognitionExternal.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Runtime\AzureGetTTS.cs" />
     <Compile Include="Assets\UnityLogger-main\Runtime\StaticHexLog.cs" />
-    <Compile Include="Assets\HexSTTtoTTS\Samples\CoversationTest.cs" />
     <Compile Include="Assets\UnityLogger-main\Tests\Runtime\LogFill.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Samples\SwitchMenu.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Samples\AzureInjectVoice.cs" />
-    <Compile Include="Assets\HexSTTtoTTS\Runtime\HexTTS.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Runtime\HexTTSAzurePOST.cs" />
-    <Compile Include="Assets\HexSTTtoTTS\Runtime\HexCognitiveBehaviourSTT.cs" />
     <Compile Include="Assets\HexSTTtoTTS\Samples\HotelScript.cs" />
-    <Compile Include="Assets\HexSTTtoTTS\Runtime\AzureGetSTT.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\SpeechProxyConfig.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\BaseSpeechDetectionPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\ISpeechDetectionPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\SpeechSynthesisEvent.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example05ProxyManagement.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\WWWEditMode.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\WWWPlayMode.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\IWWW.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\WebGLSpeechDetectionPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example07Simple.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\ProxySpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\DetectionResult.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example03ProxyCommands.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example02Word.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\WWWEditMode.cs" />
+    <Compile Include="Assets\WebGLSpeech\Scripts\Example01DictationSynthesis.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\IWWW.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\WWWPlayMode.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example07Buttons.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\SpeechSynthesisUtils.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\EditorProxySpeechDetectionPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\EditorProxySpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example01Synthesis.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\LanguageChangedResult.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\SpeechProxyConfig.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\SpeechRecognitionAlternative.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example01Dictation.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\WebGLSpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example02SpeechCommands.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\SpeechRecognitionResult.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example06NoGUI.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\ISpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example09NoGUISpeechCommands.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Voice.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\SpeechDetectionUtils.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example04ProxyDictation.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example03ProxyManagement.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Language.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\AISbaitso.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\SpeechSynthesisUtterance.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example02Proxy.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\VoiceResult.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Example08NoGUIDictation.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\BaseSpeechSynthesisPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\Dialect.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\ProxySpeechDetectionPlugin.cs" />
+    <Compile Include="Assets\WebGLSpeechSynthesis\Scripts\Example04SbaitsoClone.cs" />
+    <Compile Include="Assets\WebGLSpeechDetection\Scripts\LanguageResult.cs" />
+    <Compile Include="Assets\WebGLSpeech\Scripts\Example02DictationSbaitso.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\MacOS\Microsoft.CognitiveServices.Speech.csharp.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\Android\libs\Microsoft.CognitiveServices.Speech.csharp.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\Linux\x64\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\UnityLogger-main\HexLoggerReadme.txt" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
     <None Include="Assets\JsonDotNet\link.xml" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.XML" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.csharp.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.XML" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Standalone\Newtonsoft.Json.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll" />
-    <None Include="Assets\SpeechSDK\REDIST.txt" />
     <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\AOT\Newtonsoft.Json.XML" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
     <None Include="Assets\JsonDotNet\Assemblies\Windows\Newtonsoft.Json.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x64\Microsoft.CognitiveServices.Speech.core.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM64\Microsoft.CognitiveServices.Speech.extension.lu.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\iOS\Microsoft.CognitiveServices.Speech.csharp.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\ARM\Microsoft.CognitiveServices.Speech.extension.kws.dll" />
-    <None Include="Assets\SpeechSDK\Plugins\WSA\x86\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -342,9 +352,6 @@
     </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces">
       <HintPath>Assets\saga-unity-package-0.9-65e1c78\Runtime\Plugins\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CognitiveServices.Speech.csharp">
-      <HintPath>Assets\SpeechSDK\Plugins\x86_64\Microsoft.CognitiveServices.Speech.csharp.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory">
       <HintPath>Assets\saga-unity-package-0.9-65e1c78\Runtime\Plugins\System.Memory.dll</HintPath>

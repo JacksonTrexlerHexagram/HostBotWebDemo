@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f731a273f4d09ee43bbf321e6549bb9a
+timeCreated: 1484906597
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: WenQuanYi Zen Hei
+  fontNames:
+  - WenQuanYi Zen Hei
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
